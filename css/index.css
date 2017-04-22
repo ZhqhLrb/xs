@@ -1,0 +1,205 @@
+body,
+h1,
+h2 {
+  margin: 0px;
+  border: 0px;
+}
+.container {
+  height: 16.73333333rem;
+  width: 100%;
+  background-image: url(../img/bg.png);
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.header {
+  margin-bottom: 0.4rem;
+}
+.header .logo {
+  position: relative;
+  float: left;
+  z-index: 3;
+  margin-left: 4.4%;
+  margin-top: 5.33333333%;
+  height: 2.05333333rem;
+  width: 20%;
+}
+.header .logo img {
+  height: 100%;
+  width: 100%;
+}
+.header .title {
+  float: right;
+  position: relative;
+  z-index: 10;
+  height: 1.96rem;
+  width: 58.26666667%;
+  margin-right: 16.8%;
+  margin-top: 0.72rem;
+}
+.header .title img {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.header:before,
+.header:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+.content {
+  position: relative;
+  width: 100%;
+  margin-bottom: 0.42666667rem;
+}
+.content .paper {
+  position: relative;
+  z-index: 10;
+  height: 9.4rem;
+  width: 76.66666667%;
+  margin-left: 13.46666667%;
+}
+.content .paper img {
+  height: 100%;
+  width: 100%;
+}
+.content .left-hand-1 {
+  position: absolute;
+  z-index: 5;
+  left: 0;
+  bottom: -2.33333333rem;
+  height: 6.01333333rem;
+  width: 21.86666667%;
+}
+.content .left-hand-1 img {
+  height: 100%;
+  width: 100%;
+}
+.content .left-hand-2 {
+  position: absolute;
+  z-index: 15;
+  left: 0;
+  bottom: -1.61333333rem;
+  height: 5.33333333rem;
+  width: 3.01333333rem;
+}
+.content .left-hand-2 img {
+  height: 100%;
+  width: 100%;
+}
+.content .right-hand {
+  position: absolute;
+  z-index: 15;
+  right: 0;
+  top: -0.13333333rem;
+  height: 6.96rem;
+  width: 2.65333333rem;
+}
+.content .right-hand img {
+  height: 100%;
+  width: 100%;
+}
+.input-name {
+  height: 1.34666667rem;
+  width: 6rem;
+  margin: 0 auto 0.30666667rem;
+  padding-top: 0.16rem;
+  box-sizing: border-box;
+  background-color: #f8e8d1;
+  border-radius: 0.13333333rem;
+  box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.28);
+}
+.input-name textarea {
+  display: block;
+  height: 0.97333333rem;
+  width: 5.73333333rem;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0.02666667rem solid #b5c908;
+  outline: none;
+  resize: none;
+  background-color: #f8e8d1;
+  font-size: 24px;
+  font-family: "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
+  line-height: 0.97333333rem;
+  text-align: center;
+  color: #b5c908;
+}
+.input-name textarea::-webkit-input-placeholder {
+  font-family: "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
+  color: #bcba95;
+}
+.input-name textarea::-moz-input-placeholder {
+  font-family: "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
+  color: #bcba95;
+}
+.build-btn button {
+  display: block;
+  height: 1.17333333rem;
+  width: 4.01333333rem;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #dcec3f;
+  outline: none;
+  border: none;
+  border-radius: 0.13333333rem;
+}
+.build-btn .btn-inner {
+  height: 0.96rem;
+  width: 3.78666667rem;
+  margin: 0.10666667rem;
+  border: 0.02666667rem solid #98ad21;
+  border-radius: 0.13333333rem;
+  box-sizing: border-box;
+  font-size: 44px;
+  line-height: 0.96rem;
+  font-weight: bold;
+  text-align: center;
+  color: #445d00;
+}
+.icon {
+  display: inline-block;
+  height: 0.34666667rem;
+  width: 0.25333333rem;
+  margin-bottom: 0.02666667rem;
+  margin-left: 0.36rem;
+  background-image: url(../img/icon.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+}
+.copyright {
+  margin-top: 0.29333333rem;
+  color: #6d5d50;
+  text-align: center;
+  font-family: "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
+}
+[data-dpr="1"] .names {
+  font-size: 12px;
+}
+[data-dpr="2"] .names {
+  font-size: 24px;
+}
+[data-dpr="3"] .names {
+  font-size: 36px;
+}
+[data-dpr="1"] .btn-inner {
+  font-size: 22px;
+}
+[data-dpr="2"] .btn-inner {
+  font-size: 44px;
+}
+[data-dpr="3"] .btn-inner {
+  font-size: 66px;
+}
+[data-dpr="1"] .copyright {
+  font-size: 12px;
+}
+[data-dpr="2"] .copyright {
+  font-size: 24px;
+}
+[data-dpr="3"] .copyright {
+  font-size: 36px;
+}
