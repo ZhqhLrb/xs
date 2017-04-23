@@ -13,7 +13,7 @@ h2 {
   background-repeat: no-repeat;
 }
 .header {
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.38666667rem;
 }
 .header .logo {
   position: relative;
@@ -51,12 +51,12 @@ h2 {
 .content {
   position: relative;
   width: 100%;
-  margin-bottom: 0.42666667rem;
+  margin-bottom: 0.41333333rem;
 }
 .content .paper {
   position: relative;
   z-index: 10;
-  height: 8.97333333rem;
+  height: 53.62549801%;
   width: 76.66666667%;
   margin-left: 13.46666667%;
 }
@@ -68,7 +68,7 @@ h2 {
   position: absolute;
   z-index: 5;
   left: 0;
-  bottom: -2.33333333rem;
+  bottom: -2.53333333rem;
   height: 6.01333333rem;
   width: 21.86666667%;
 }
@@ -80,7 +80,7 @@ h2 {
   position: absolute;
   z-index: 15;
   left: 0;
-  bottom: -1.61333333rem;
+  bottom: -1.81333333rem;
   height: 5.33333333rem;
   width: 3.01333333rem;
 }
@@ -103,7 +103,7 @@ h2 {
 .input-name {
   height: 1.34666667rem;
   width: 6rem;
-  margin: 0 auto 0.30666667rem;
+  margin: 0 auto 0.32rem;
   padding-top: 0.16rem;
   box-sizing: border-box;
   background-color: #f8e8d1;
@@ -155,7 +155,9 @@ h2 {
   border-radius: 0.13333333rem;
   box-sizing: border-box;
   font-size: 44px;
+  font-family: "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
   line-height: 0.96rem;
+  letter-spacing: 0.02666667rem;
   font-weight: bold;
   text-align: center;
   color: #445d00;
@@ -165,17 +167,18 @@ h2 {
   height: 0.34666667rem;
   width: 0.25333333rem;
   margin-bottom: 0.02666667rem;
-  margin-left: 0.36rem;
+  margin-left: 0.33333333rem;
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAaCAYAAABVX2cEAAAA8klEQVQ4ja3Vr0tDURQH8I+G+R+YBcHuvyAiziAm8zD7FxjM+xOWbGIRtjLsZjHYhLXZVlxZEETD3dOH7u2d9+MLt9xz+HC44Z6N7oUj7OMWb1K28Y4PwTzcsIkz9LGTq+1hiE4UI2FFOakKrsMycBQFyzDoRsEIFgajWAisguXBrTawDByuAutghWBdbCXYBPsHNsUy8L4t7AvjtrArDNrA+sujKTaQpvpJXewOl9J7NcLG6OHzb6Eq9ohzBd95FewZp1gUNUSxVxxjvq4pgk1xiFlZYxk2w4HfFVgbmy8nmkSgDLvGLp5y9wtpM71EIfgGJbIr6bQBRdsAAAAASUVORK5CYII=");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
 }
 .copyright {
-  margin-top: 0.29333333rem;
+  margin-top: 0.26666667rem;
   color: #6d5d50;
   text-align: center;
   line-height: 1;
+  letter-spacing: 0.02666667rem;
   font-family: "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
 }
 [data-dpr="1"] .names {
