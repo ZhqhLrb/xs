@@ -97,6 +97,8 @@ body {
   animation: line-spin-fade-loader 1.2s 0.96s infinite ease-in-out;
 }
 .loader-text {
+  line-height: 1;
+  font-family: 'Microsoft Yahei';
   text-align: center;
   color: #000;
 }
@@ -124,4 +126,13 @@ body {
   100% {
     opacity: 1;
   }
+}
+[data-dpr="1"] .loader-text {
+  font-size: 16px;
+}
+[data-dpr="2"] .loader-text {
+  font-size: 32px;
+}
+[data-dpr="3"] .loader-text {
+  font-size: 48px;
 }

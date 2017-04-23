@@ -51,7 +51,7 @@ h2 {
 .content {
   position: relative;
   width: 100%;
-  margin-bottom: 0.41333333rem;
+  margin-bottom: 0.28rem;
 }
 .content .paper {
   position: relative;
@@ -175,7 +175,7 @@ h2 {
 }
 .copyright {
   margin-top: 0.26666667rem;
-  color: #6d5d50;
+  color: #644e43;
   text-align: center;
   line-height: 1;
   letter-spacing: 0.02666667rem;
