@@ -32,9 +32,9 @@
                 <img src="./img/righth.png" alt="">
             </div>
         </div>
-        <form action="">
+        <form action="http://localhost:3000/" method="get">
             <div class="input-name">
-                <textarea class="names" placeholder="输入姓名生成属于自己的入团誓词"></textarea>
+                <textarea name="name" class="names" placeholder="输入姓名生成属于自己的入团誓词"></textarea>
             </div>
             <div class="build-btn">
                 <button>
@@ -46,4 +46,29 @@
     </div>
 </body>
 <script src="./js/index.js"></script>
+<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+ <script src="http://hongyan.cqupt.edu.cn/wx-api/share.js"></script>
+<script>
+    WXSHARE.config({debug: false});
+    WXSHARE.ready(function() {
+        var option = {
+        title: "test",
+        link: "http://hongyan.cqupt.edu.cn/leifeng/index.html",
+        imgUrl: 'http://hongyan.cqupt.edu.cn/leifeng/image/jinli.png',
+        desc: '雷锋表情包欢迎下载！',
+        type: '',
+        success: function() {
+            console.log('分享成功');
+        },
+        cancel: function() {
+            console.log('取消分享');
+        },
+    };
+    wx.onMenuShareTimeline(option);
+    wx.onMenuShareAppMessage(option);
+    wx.onMenuShareQQ(option);
+    wx.onMenuShareWeibo(option);
+    wx.onMenuShareQZone(option);
+});
+</script>
 </html>
