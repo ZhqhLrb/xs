@@ -1,6 +1,8 @@
 window.onload = function () {
     var load = document.querySelector('.loading');
+    var inner = document.querySelector('.inner');
     load.style.display = 'none';
+    inner.style.display = 'block';
 }
 
 function init() {
