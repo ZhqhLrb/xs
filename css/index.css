@@ -5,6 +5,7 @@ h2 {
   padding: 0px;
 }
 .container {
+  height: 16.73333333rem;
   width: 100%;
   background-image: url(../img/bg.png);
   background-size: 100% 100%;
