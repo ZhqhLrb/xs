@@ -50,13 +50,14 @@ h2 {
 }
 .content {
   position: relative;
+  height: 53.62549801%;
   width: 100%;
   margin-bottom: 0.28rem;
 }
 .content .paper {
   position: relative;
   z-index: 10;
-  height: 53.62549801%;
+  height: 100%;
   width: 76.66666667%;
   margin-left: 13.46666667%;
 }
