@@ -10,6 +10,12 @@
 </head>
 <body>
     <div class="container">
+        <div class="alert" style="display: none;">
+            <div class="alert-box">
+                <div class="alert-content">名字过长，请重新输入</div>
+                <div class="alert-confirm">确定</div>
+            </div>
+        </div>
         <div class="header">
             <div class="logo">
                 <img src="./img/logo.png" alt="">
@@ -29,15 +35,15 @@
                 <img src="./img/lefth2.png" alt="">
             </div>
             <div class="right-hand">
-                <img src="./img/righth.png" alt="">
+                <img src="./img/r.png" alt="">
             </div>
         </div>
-        <form action="./content.html" method="get">
+        <form action="./content.html" method="get" class="form">
             <div class="input-name">
                 <textarea name="name" class="names" placeholder="输入姓名生成属于自己的入团誓词"></textarea>
             </div>
             <div class="build-btn">
-                <button>
+                <button class="btn">
                     <div class="btn-inner">马上生成<span class="icon"></span></div>
                 </button>
             </div>
