@@ -1,7 +1,9 @@
 window.onload = function () {
     var load = document.querySelector('.loading');
     var inner = document.querySelector('.inner');
+    var alertBox = document.querySelector('.alert');
     load.style.display = 'none';
+    alertBox.style.display = 'block';
     inner.style.display = 'block';
 }
 
