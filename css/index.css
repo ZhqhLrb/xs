@@ -203,6 +203,7 @@ p {
   background-color: #fffddc;
   border-radius: 0.13333333rem;
   font-family: "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
+  box-shadow: 0rem 0rem 0.26666667rem 0rem rgba(0, 0, 0, 0.7);
 }
 .cover .alert-box .alert-icon {
   height: 1.17333333rem;
@@ -267,6 +268,7 @@ p {
   color: #b69560;
   -webkit-animation: bounce-in 0.2s both;
   animation: bounce-in 0.2s both;
+  box-shadow: 0rem 0rem 0.26666667rem 0rem rgba(0, 0, 0, 0.7);
 }
 .developer .dev-item {
   margin-bottom: 0.44rem;

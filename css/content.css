@@ -134,6 +134,7 @@ body {
   font-family: "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
   -webkit-animation: bounce-in 0.2s both;
   animation: bounce-in 0.2s both;
+  box-shadow: 0rem 0rem 0.26666667rem 0rem rgba(0, 0, 0, 0.5);
 }
 .alert .alert-box .alert-icon {
   height: 1.17333333rem;
