@@ -2,7 +2,10 @@ function init () {
     var cont = document.querySelector('.container');
     var form = document.querySelector('.form');
     var nameInput = document.querySelector('.names');
-    var btn = document.querySelector('.btn');
+
+    var dev = document.querySelector('.developer-info');
+    var openBtn = document.querySelector('.info');
+    var closeBtn = document.querySelector('.dev-close-btn');
 
     var alertBox = document.querySelector('.alert');
     var btn = document.querySelector('.alert-confirm');
@@ -20,9 +23,17 @@ function init () {
         }
     }
 
+    openBtn.addEventListener('click', function () {
+        dev.style.display = 'block';
+    });
+    closeBtn.addEventListener('click', function () {
+        dev.style.display = 'none';
+    });
+
     btn.addEventListener('click', function () {
         alertBox.style.display = 'none';
     })
+
 }
 
 init();

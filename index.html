@@ -10,10 +10,27 @@
 </head>
 <body>
     <div class="container">
-        <div class="alert" style="display: none;">
+        <div class="cover alert" style="display: none;">
             <div class="alert-box">
-                <div class="alert-content">名字过长，请重新输入</div>
+                <div class="alert-icon">
+                    <img src="./img/aIcon.png" alt="">
+                </div>
+                <p class="alert-info a-info-1">亲！你的入团誓词名片已生成。</p>
+                <p class="alert-info a-info-2">赶紧长按图片保存并分享吧～</p>
                 <div class="alert-confirm">确定</div>
+            </div>
+        </div>
+        <div class="cover developer-info" style="display: none;">
+            <div class="developer">
+                <p class="dev-item">产品策划:<span class="dev-name">杨奇凡</span></p>
+                <p class="dev-item">视觉设计:<span class="dev-name">李相玲</span></p>
+                <p class="dev-item">前端开发:<span class="dev-name">刘荣博</span></p>
+                <p class="dev-item">后端开发:<span class="dev-name">查森云</span></p>
+                <p class="dev-item">指导老师:<span class="dev-name">杨奇凡</span></p>
+                <p class="dev-footer">红岩网校工作站出品</p>
+                <div class="dev-close-btn">
+                    <div class="close-btn-icon"></div>
+                </div>
             </div>
         </div>
         <div class="header">
@@ -35,7 +52,7 @@
                 <img src="./img/lefth2.png" alt="">
             </div>
             <div class="right-hand">
-                <img src="./img/r.png" alt="">
+                <img src="./img/righth.png" alt="">
             </div>
         </div>
         <form action="./content.html" method="get" class="form">
@@ -43,11 +60,12 @@
                 <textarea name="name" class="names" placeholder="输入姓名生成属于自己的入团誓词"></textarea>
             </div>
             <div class="build-btn">
-                <button class="btn">
+                <button>
                     <div class="btn-inner">马上生成<span class="icon"></span></div>
                 </button>
             </div>
         </form>
+        <div class="info">?</div>
         <div class="copyright">©红岩网校工作站</div>
     </div>
 </body>
