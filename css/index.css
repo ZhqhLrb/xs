@@ -15,6 +15,7 @@ p {
   background-repeat: no-repeat;
 }
 .header {
+  height: 16.40816327%;
   margin-bottom: 0.38666667rem;
 }
 .header .logo {
@@ -22,9 +23,9 @@ p {
   float: left;
   z-index: 3;
   margin-left: 4.4%;
-  margin-top: 5.33333333%;
-  height: 2.05333333rem;
-  width: 2rem;
+  margin-top: 0.53333333rem;
+  height: 76.61691542%;
+  width: 20%;
 }
 .header .logo img {
   height: 100%;
@@ -35,7 +36,8 @@ p {
   position: relative;
   z-index: 10;
   height: 1.96rem;
-  width: 5.82666667rem;
+  height: 73.13432836%;
+  width: 58.26666667%;
   margin-right: 16.8%;
   margin-top: 0.68rem;
 }
