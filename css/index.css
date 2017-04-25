@@ -352,13 +352,22 @@ p {
   font-size: 54px;
 }
 [data-dpr="1"] textarea::-webkit-input-placeholder {
-  font-size: 24px;
+  font-size: 12px;
 }
 [data-dpr="2"] textarea::-webkit-input-placeholder {
   font-size: 24px;
 }
 [data-dpr="3"] textarea::-webkit-input-placeholder {
+  font-size: 36px;
+}
+[data-dpr="1"] textarea::-moz-input-placeholder {
+  font-size: 12px;
+}
+[data-dpr="2"] textarea::-moz-input-placeholder {
   font-size: 24px;
+}
+[data-dpr="3"] textarea::-moz-input-placeholder {
+  font-size: 36px;
 }
 [data-dpr="1"] .btn-inner {
   font-size: 22px;
