@@ -326,6 +326,17 @@ p {
   width: 0.05333333rem;
   background-color: #fff;
 }
+.coverlight {
+  position: absolute;
+  opacity: .3;
+  z-index: 9999;
+  height: 100%;
+  width: 100%;
+}
+.coverlight img {
+  height: 100%;
+  width: 100%;
+}
 @keyframes bounce-in {
   0% {
     opacity: 0;
