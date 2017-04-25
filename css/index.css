@@ -54,7 +54,7 @@ p {
 }
 .content {
   position: relative;
-  height: 54.58167331%;
+  height: 55.77689243%;
   width: 100%;
   margin-bottom: 0.28rem;
 }
@@ -130,7 +130,7 @@ p {
   font-family: "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
   line-height: 0.97333333rem;
   text-align: center;
-  color: #b5c908;
+  color: #bcba95;
 }
 .input-name textarea::-webkit-input-placeholder {
   font-family: "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
@@ -160,7 +160,7 @@ p {
   border-radius: 0.13333333rem;
   box-sizing: border-box;
   font-size: 44px;
-  font-family: "STSongti", "Microsoft YaHei", "WenQuanYi Micro Hei";
+  font-family: "STSong", "SimSun";
   line-height: 0.96rem;
   letter-spacing: 0.02666667rem;
   font-weight: bold;
@@ -179,7 +179,9 @@ p {
   background-position: center;
 }
 .copyright {
-  margin-top: 0.26666667rem;
+  position: absolute;
+  bottom: 0.33333333rem;
+  width: 100%;
   color: #644e43;
   text-align: center;
   line-height: 1;
@@ -339,13 +341,22 @@ p {
   }
 }
 [data-dpr="1"] .names {
-  font-size: 12px;
+  font-size: 18px;
 }
 [data-dpr="2"] .names {
-  font-size: 24px;
+  font-size: 36px;
 }
 [data-dpr="3"] .names {
-  font-size: 36px;
+  font-size: 54px;
+}
+[data-dpr="1"] textarea::-webkit-input-placeholder {
+  font-size: 24px;
+}
+[data-dpr="2"] textarea::-webkit-input-placeholder {
+  font-size: 24px;
+}
+[data-dpr="3"] textarea::-webkit-input-placeholder {
+  font-size: 24px;
 }
 [data-dpr="1"] .btn-inner {
   font-size: 22px;
