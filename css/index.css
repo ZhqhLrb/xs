@@ -54,7 +54,7 @@ p {
 }
 .content {
   position: relative;
-  height: 54.58167331%;
+  height: 55.77689243%;
   width: 100%;
   margin-bottom: 0.28rem;
 }
@@ -179,7 +179,9 @@ p {
   background-position: center;
 }
 .copyright {
-  margin-top: 0.26666667rem;
+  position: absolute;
+  bottom: 0.33333333rem;
+  width: 100%;
   color: #644e43;
   text-align: center;
   line-height: 1;
