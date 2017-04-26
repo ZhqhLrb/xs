@@ -115,7 +115,7 @@ p {
 }
 .input-name textarea {
   display: block;
-  height: 0.97333333rem;
+  height: 0.90666667rem;
   width: 5.73333333rem;
   padding: 0;
   margin-left: auto;
@@ -126,7 +126,7 @@ p {
   background-color: #f8e8d1;
   font-size: 24px;
   font-family: "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
-  line-height: 0.97333333rem;
+  line-height: 0.90666667rem;
   text-align: center;
   color: #bcba95;
 }
@@ -151,7 +151,7 @@ p {
   box-shadow: 0.05333333rem 0.09333333rem 0.04rem rgba(0, 0, 0, 0.28);
 }
 .build-btn .btn-inner {
-  height: 0.96rem;
+  height: 0.86666667rem;
   width: 3.78666667rem;
   margin: 0.10666667rem;
   border: 0.02666667rem solid #98ad21;
