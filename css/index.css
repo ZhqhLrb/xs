@@ -24,7 +24,7 @@ p {
   margin-left: 4.4%;
   margin-top: 0.53333333rem;
   height: 2.05333333rem;
-  width: 2rem;
+  width: 20%;
 }
 .header .logo img {
   height: 100%;
@@ -35,7 +35,7 @@ p {
   position: relative;
   z-index: 10;
   height: 1.96rem;
-  width: 5.82666667rem;
+  width: 58.26666667%;
   margin-right: 16.8%;
   margin-top: 0.68rem;
 }
@@ -178,7 +178,7 @@ p {
 }
 .copyright {
   position: absolute;
-  bottom: 1.2244898%;
+  bottom: 0.81632653%;
   width: 100%;
   color: #644e43;
   text-align: center;
@@ -246,7 +246,7 @@ p {
 }
 .info {
   position: absolute;
-  bottom: 0.73333333rem;
+  bottom: 0.66666667rem;
   right: 2.8%;
   height: 0.70666667rem;
   width: 0.70666667rem;
